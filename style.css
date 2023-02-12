@@ -79,7 +79,7 @@ img {
 .dropdown-btn:before {
     display: block;
     content: "";
-    background: url(/images/maps-and-flags.svg) no-repeat;
+    background: url(/maps-and-flags.svg) no-repeat;
     background-size: contain;
     width: 16px;
     height: 16px;
@@ -88,7 +88,7 @@ img {
 
 .dropdown-btn:after {
     content: "";
-    background: url(/images/Rectangle50.svg) no-repeat;
+    background: url(/Rectangle50.svg) no-repeat;
     background-size: contain;
     width: 9px;
     height: 6px;
@@ -107,7 +107,7 @@ li.dropdown-list-item.active-item:after {
     display: inline-block;
     width: 11px;
     height: 8px;
-    background: url(/images/Vector.svg);
+    background: url(/Vector.svg);
 }
 
 .dropdown-list,
@@ -329,7 +329,7 @@ button,
 
 .number::before {
     content: '';
-    background: url(/images/phone.svg);
+    background: url(/phone.svg);
     width: 16px;
     height: 16px;
     display: block;
@@ -479,7 +479,7 @@ button,
 
 .search::-webkit-search-cancel-button {
     -webkit-appearance: none;
-    content: URL(/images/x-symbol.svg);
+    content: URL(/x-symbol.svg);
     cursor: pointer;
     height: 10px;
     width: 10px;
@@ -534,7 +534,7 @@ button,
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #F8F8F8 url(/images/diamond.svg) no-repeat;
+    background: #F8F8F8 url(/diamond.svg) no-repeat;
     background-position: top 24px left -111px;
     min-width: 100%;
 }
@@ -858,19 +858,19 @@ button,
     line-height: 22.4px;
 }
 .sale-heart {
-    background: url(/images/heart_fill.svg) no-repeat;
+    background: url(/heart_fill.svg) no-repeat;
 }
 .sale-heart:hover {
-    background: url(/images/heart_fill_hover.svg) no-repeat;
+    background: url(/heart_fill_hover.svg) no-repeat;
 }
 .sale-heart-active {
-    background: url(/images/heart_fill-active.svg) no-repeat!important;
+    background: url(/heart_fill-active.svg) no-repeat!important;
 }
 .sale-eye {
-    background: url(/images/eyes.svg) no-repeat;
+    background: url(/eyes.svg) no-repeat;
 }
 .sale-eye:hover {
-    background: url(/images/eyes-hover.svg) no-repeat;
+    background: url(/eyes-hover.svg) no-repeat;
 }
 .sale-block .dropdown-btn:before {
     display: none!important;
@@ -949,14 +949,14 @@ button,
     color: #ffffff;
 }
 .card:nth-child(1) {
-    background: url(/images/card1.png) no-repeat right 18px top 0, url(/images/diamond.svg) no-repeat left -146px top 25px;
+    background: url(/card1.png) no-repeat right 18px top 0, url(/diamond.svg) no-repeat left -146px top 25px;
 }
 .card:nth-child(2) {
-    background: url(/images/card2.png) no-repeat right 0 top 0, url(/images/diamond.svg) no-repeat left -146px top 25px;
+    background: url(/card2.png) no-repeat right 0 top 0, url(/diamond.svg) no-repeat left -146px top 25px;
 
 }
 .card:nth-child(3) {
-    background: url(/images/card3.png) no-repeat right 0 top 0, url(/images/diamond.svg) no-repeat left -146px top 25px;
+    background: url(/card3.png) no-repeat right 0 top 0, url(/diamond.svg) no-repeat left -146px top 25px;
 
 }
 
@@ -1311,23 +1311,23 @@ button,
     font-weight: 300;
 }
 .chart {
-    background: url(/images/chart1.svg) no-repeat;
+    background: url(/chart1.svg) no-repeat;
     background-size: contain;
 }
 .size-action:hover .chart {
-    background: url(/images/chart-hover.svg) no-repeat;
+    background: url(/chart-hover.svg) no-repeat;
     background-size: contain;
 }
 .share {
-    background: url(/images/share-one.svg) no-repeat;
+    background: url(/share-one.svg) no-repeat;
     background-size: contain;
 }
 .size-action:hover .share {
-    background: url(/images/share-hover.svg) no-repeat;
+    background: url(/share-hover.svg) no-repeat;
     background-size: contain;
 }
 .size-action:hover .sale-heart {
-    background: url(/images/heart_fill_hover.svg) no-repeat;
+    background: url(/heart_fill_hover.svg) no-repeat;
 }
 
 /* Articles */
@@ -1347,7 +1347,7 @@ button,
     display: block;
     width: 27px;
     height: 12px;
-    background: url(/images/arrow-read.svg) no-repeat;
+    background: url(/arrow-read.svg) no-repeat;
 }
 .read-all:hover {
     opacity: 50%;
@@ -1442,7 +1442,7 @@ button,
 @media (max-width: 768px) {
     .slider-block {
         flex-direction: column;
-        background: url(/images/diamond.svg) left 50% top 24px no-repeat rgb(248, 248, 248);
+        background: url(/diamond.svg) left 50% top 24px no-repeat rgb(248, 248, 248);
     }
     .slider-block-right {
         padding: 10px 36px;
