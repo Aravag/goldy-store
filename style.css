@@ -1138,6 +1138,7 @@ button,
 }
 .colors input {
     visibility: hidden;
+    cursor: pointer;
 }
 .colors input[type='radio']:after {
     width: 24px;
