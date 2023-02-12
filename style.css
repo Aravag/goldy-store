@@ -1150,7 +1150,7 @@ button,
     display: block;
     visibility: visible;
     border: 4px solid #ffffff;
-    outline: 1px solid #dadada;
+    box-shadow: 0 0 0 1px #dadada;
     cursor: pointer;
     transition: 0.2s ease;
 }
@@ -1171,7 +1171,7 @@ button,
     height: 24px;
     border-radius: 50%;
     content: '';
-    outline: 1px solid #303030;
+    box-shadow: 0 0 0 1px #303030;
 }
 .size {
     display: flex;
