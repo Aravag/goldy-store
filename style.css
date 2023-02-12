@@ -665,10 +665,6 @@ button,
     align-items: center;
 }
 
-.categ-img-container img {
-    height: fit-content;
-}
-
 .categories-block:nth-child(1) img {
     max-width: 127px;
 }
