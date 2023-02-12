@@ -1,1 +1,0 @@
-# goldy-store-github.io
