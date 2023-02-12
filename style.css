@@ -1380,9 +1380,9 @@ button,
     display: flex;
     flex-direction: column;
     max-width: calc(25% - 15px);
-    max-height: 381px;
 }
 .article img {
+    max-height: 430px
     height: 100%;
 }
 .date {
