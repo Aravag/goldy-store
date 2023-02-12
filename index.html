@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldy Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Prata&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <div class="head">
+                <div class="head-left">
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <button class="dropdown-btn">Санкт-Петербург</button>
+                            <ul class="dropdown-list dropdown-list-hide">
+                                <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">Санкт-Петербург
+                                </li>
+                                <li class="dropdown-list-item" data-value="Москва">Москва</li>
+                                <li class="dropdown-list-item" data-value="Нижний Новгород">Нижний Новгород</li>
+                                <li class="dropdown-list-item" data-value="Ростов-на-Дону">Ростов-на-Дону</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <a href="tel:88007852535">
+                            <div class="number">8&nbsp;800&nbsp;785&#8209;25&#8209;35</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="head-center">
+                    <img class="logo" src="/images/logo.svg" alt="logo">
+                    <img class="logo-text" src="/images/logo-text.svg" alt="logo-text">
+                </div>
+                <div class="head-right">
+                    <div class="auth">
+                        <a href="#" class="login">Вход</a>
+                        <div class="separator"></div>
+                        <a href="#" class="register">Регистрация</a>
+                    </div>
+                    <div class="actions">
+                        <button class="action-btn">
+                            <img src="/images/favorite.svg" alt="action-btn" class="action-img">
+                        </button>
+                        <button class="action-btn">
+                            <img src="/images/chart.svg" alt="action-btn" class="action-img">
+                        </button>
+                        <button class="action-btn">
+                            <img src="/images/bag.svg" alt="action-btn" class="action-img">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="menu-left">
+                    <a href="#" class="menu-item">
+                        <li>Каталог</li>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <li>Акции</li>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <li>Бренды</li>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <li>Магазины</li>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <li>О&nbsp;нас</li>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <li>Доставка и&nbsp;оплата</li>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <li>Статьи</li>
+                    </a>
+                </ul>
+                <div class="menu-right">
+                    <button class="search-btn">
+                        <img src="/images/magnif.svg" alt="search-btn" class="search-img">
+                    </button>
+                    <input type="search" placeholder="Поиск по сайту" class="search">
+                </div>
+            </div>
+            <div class="mob-menu">
+                <div class="head-center">
+                    <img class="logo" src="/images/logo.svg" alt="logo">
+                    <img class="logo-text" src="/images/logo-text.svg" alt="logo-text">
+                </div>
+                <div class="burger-menu-wrap">
+                    <button class="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="mob-menu-content">
+                    <p class="logo-name">Goldy <span>Store</span></p>
+                    <ul class="menu-left">
+                        <a href="#" class="menu-item">
+                            <li>Каталог</li>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <li>Акции</li>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <li>Бренды</li>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <li>Магазины</li>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <li>О&nbsp;нас</li>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <li>Доставка и&nbsp;оплата</li>
+                        </a>
+                        <a href="#" class="menu-item">
+                            <li>Статьи</li>
+                        </a>
+                    </ul>
+                    <div class="menu-right">
+                        <button class="search-btn">
+                            <img src="/images/magnif.svg" alt="search-btn" class="search-img">
+                        </button>
+                        <input type="search" placeholder="Поиск по сайту" class="search">
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <button class="dropdown-btn">Санкт-Петербург</button>
+                            <ul class="dropdown-list dropdown-list-hide">
+                                <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">Санкт-Петербург
+                                </li>
+                                <li class="dropdown-list-item" data-value="Москва">Москва</li>
+                                <li class="dropdown-list-item" data-value="Нижний Новгород">Нижний Новгород</li>
+                                <li class="dropdown-list-item" data-value="Ростов-на-Дону">Ростов-на-Дону</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mob-menu-login">
+                        <button class="mob-login mob-btn">Войти</button>
+                        <button class="mob-register mob-btn">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="slider">
+            <div class="slides-container">
+                <div class="slider-block">
+                    <div class="slider-block-left">
+                        <p class="slider-subtitle">Суперскидка до 60%</p>
+                        <p class="slider-title">НА БРИЛЛИАНТЫ</p>
+                        <button class="slider-btn">Подробнее</button>
+                    </div>
+                    <div class="slider-block-right">
+                        <img src="/images/ring1.png" alt="banner-img" class="banner-ring">
+                    </div>
+                </div>
+                <div class="slider-block">
+                    <div class="slider-block-left">
+                        <p class="slider-subtitle">Суперскидка до 60%</p>
+                        <p class="slider-title">НА БРИЛЛИАНТЫ</p>
+                        <button class="slider-btn">Подробнее</button>
+                    </div>
+                    <div class="slider-block-right">
+                        <img src="/images/ring1.png" alt="banner-img" class="banner-ring">
+                    </div>
+                </div>
+                <div class="slider-block">
+                    <div class="slider-block-left">
+                        <p class="slider-subtitle">Суперскидка до 60%</p>
+                        <p class="slider-title">НА БРИЛЛИАНТЫ</p>
+                        <button class="slider-btn">Подробнее</button>
+                    </div>
+                    <div class="slider-block-right">
+                        <img src="/images/ring1.png" alt="banner-img" class="banner-ring">
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-left left-1 disabled-arrow">
+                <img src="/images/arrow.svg" alt="arrow">
+            </div>
+            <div class="arrow-right right-1">
+                <img src="/images/arrow.svg" alt="arrow">
+            </div>
+            <div class="dots">
+                <div class="dot dot-active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="section-title">Популярные категории</div>
+            <div class="categories-block-wrap">
+                <a class="categories-block">
+                    <div class="categ-img-container">
+                        <img src="/images/categ1.png" alt="categories">
+                    </div>
+                    <p>Кольца</p>
+                </a>
+                <a class="categories-block">
+                    <div class="categ-img-container">
+                        <img src="/images/categ2.png" alt="categories">
+                    </div>
+                    <p>Серьги</p>
+                </a>
+                <a class="categories-block">
+                    <div class="categ-img-container">
+                        <img src="/images/categ3.png" alt="categories">
+                    </div>
+                    <p>Помолвочные кольца</p>
+                </a>
+                <a class="categories-block">
+                    <div class="categ-img-container">
+                        <img src="/images/categ4.png" alt="categories">
+                    </div>
+                    <p>Браслеты</p>
+                </a>
+                <a class="categories-block">
+                    <div class="categ-img-container">
+                        <img src="/images/categ5.png" alt="categories">
+                    </div>
+                    <p>Колье и подвески</p>
+                </a>
+                <a class="categories-block">
+                    <div class="categ-img-container">
+                        <img src="/images/categ6.png" alt="categories">
+                    </div>
+                    <p>Часы</p>
+                </a>
+            </div>
+        </section>
+        <section class="tabs">
+            <div class="section-title" style="margin-bottom: 10px">Распродажа</div>
+            <div class="tabs-head">
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Ring')" id="defaultOpen">Кольца</button>
+                    <button class="tablinks" onclick="openTab(event, 'Earring')">Серьги</button>
+                    <button class="tablinks" onclick="openTab(event, 'Braclet')">Браслеты</button>
+                    <button class="tablinks" onclick="openTab(event, 'Watch')">Часы</button>
+                </div>
+                <div class="tabs-arrows">
+                    <div class="arrow-left">
+                        <img src="/images/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="arrow-right">
+                        <img src="/images/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+            </div>
+
+            <div id="Ring" class="tabcontent">
+                <div class="sale-container">
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale">Sale</div>
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price-left">
+                                    <div class="price">41 000 ₽</div>
+                                    <div class="old-price">65 000 ₽</div>
+                                </div>
+                                <div class="sale-percentages">-45%</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                    </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">56 000 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">37 500 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">39 200 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 15</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 16</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Earring" class="tabcontent">
+                <div class="sale-container">
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale">Sale</div>
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price-left">
+                                    <div class="price">41 000 ₽</div>
+                                    <div class="old-price">65 000 ₽</div>
+                                </div>
+                                <div class="sale-percentages">-45%</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                    </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">56 000 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">37 500 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">39 200 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 15</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 16</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Braclet" class="tabcontent">
+                <div class="sale-container">
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale">Sale</div>
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price-left">
+                                    <div class="price">41 000 ₽</div>
+                                    <div class="old-price">65 000 ₽</div>
+                                </div>
+                                <div class="sale-percentages">-45%</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                    </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">56 000 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">37 500 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">39 200 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 15</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 16</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Watch" class="tabcontent">
+                <div class="sale-container">
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale">Sale</div>
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                    <img src="/images/sale4.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price-left">
+                                    <div class="price">41 000 ₽</div>
+                                    <div class="old-price">65 000 ₽</div>
+                                </div>
+                                <div class="sale-percentages">-45%</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                    </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                    <img src="/images/sale2.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">56 000 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                    <img src="/images/sale3.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">37 500 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 16</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item" data-value="Санкт-Петербург">Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item active-item" data-value="Москва">Размер: 16
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-block-container">
+                        <div class="sale-block">
+                            <div class="sale-action-icons">
+                                <button class="sale-action-button sale-heart">
+                                </button>
+                                <button class="sale-action-button sale-eye">
+                                </button>
+                            </div>
+                            <div class="sale-img">
+                                <div class="sale-line">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                    <img src="/images/sale1.png" alt="sale-img">
+                                </div>
+                                <div class="img-dots">
+                                    <div class="dot dot-active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <div class="price-head">
+                                <div class="price">39 200 ₽</div>
+                            </div>
+                            <div class="descr">Стильное кольцо из белого золота c бриллиантами</div>
+                            <div class="sale-block-foot">
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Белое золото</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Белое золото
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Желтое золото</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Серебро</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown">
+                                        <button class="dropdown-btn">Размер: 15</button>
+                                        <ul class="dropdown-list dropdown-list-hide">
+                                            <li class="dropdown-list-item active-item" data-value="Санкт-Петербург">
+                                                Размер: 15
+                                            </li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 16</li>
+                                            <li class="dropdown-list-item" data-value="Москва">Размер: 17</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sale-cards">
+                <div class="card">
+                    <p class="card-title">Скидки на все украшения с бриллиантами</p>
+                    <p class="card-sub">До <span>-50%</span></p>
+                </div>
+                <div class="card">
+                    <p class="card-title">Скидки на все украшения с бриллиантами</p>
+                    <p class="card-sub">До <span>-50%</span></p>
+                </div>
+                <div class="card">
+                    <p class="card-title">Скидки на все украшения с бриллиантами</p>
+                    <p class="card-sub">До <span>-50%</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="day-prod">
+            <div class="day-prod-head">
+                <div class="section-title">Товар дня</div>
+                <div class="arrows">
+                    <div class="arrow-left">
+                        <img src="/images/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="arrow-right">
+                        <img src="/images/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-left">
+                    <div class="sales">
+                        <div class="sale">New</div>
+                        <div class="sale">Хит</div>
+                        <div class="sale">Sale</div>
+                    </div>
+                    <div class="day-img-container">
+                        <div class="day-img-line">
+                            <img src="/images/day-img.png" alt="product-day-image" class="prod-day-img">
+                            <img src="/images/day-img.png" alt="product-day-image" class="prod-day-img">
+                            <img src="/images/day-img.png" alt="product-day-image" class="prod-day-img">
+                        </div>
+                    </div>
+                    <div class="day-arrow-left day-arrow day-arrow-dis">
+                        <img src="/images/arrow-day.svg" alt="arrow">
+                    </div>
+                    <div class="day-arrow-right day-arrow">
+                        <img src="/images/arrow-day.svg" alt="arrow">
+                    </div>
+                </div>
+                <div class="product-right">
+                    <div class="rate">
+                        <div class="rate-star"><img src="/images/star-filled.svg" alt="rate-star"></div>
+                        <div class="rate-star"><img src="/images/star-filled.svg" alt="rate-star"></div>
+                        <div class="rate-star"><img src="/images/star-filled.svg" alt="rate-star"></div>
+                        <div class="rate-star"><img src="/images/star-filled.svg" alt="rate-star"></div>
+                        <div class="rate-star"><img src="/images/star.svg" alt="rate-star"></div>
+                        <div class="rate-count">4,2</div>
+                    </div>
+                    <div class="product-title">Кольцо из золота с бриллиантами</div>
+                    <div class="vendor-code">Артикул: 1012076</div>
+                    <div class="price-and-countdown">
+                        <div class="prices">
+                            <div class="price">22 000 ₽</div>
+                            <div class="old-price">22 000 ₽</div>
+                            <div class="sale-percentages">-45%</div>
+                        </div>
+                        <div class="countdown">
+                            <div class="hour time" id="hour"></div>
+                            <span>:</span>
+                            <div class="minute time" id="minute"></div>
+                            <span>:</span>
+                            <div class="second time" id="second"></div>
+                        </div>
+                    </div>
+                    <div class="product-separator"></div>
+                    <div class="product-sub">Цвет</div>
+                    <div class="colors">
+                        <input type="radio" name="color" id="grey" value="grey" class="color" checked>
+                        <input type="radio" name="color" id="yellow" value="yellow" class="color">
+                        <input type="radio" name="color" id="orange" value="orange" class="corangeolor">
+                        <input type="radio" name="color" id="green" value="green" class="cgreenolor">
+                    </div>
+                    <div class="size">
+                        <div class="product-sub">Размер</div>
+                        <div class="info">
+                            <div class="info-sign">?</div>
+                            <div class="info-content">
+                                Также как существующая теория напрямую зависит от экономической целесообразности принимаемых решений.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="size-buttons">
+                        <button class="size-btn btn-active">16,5</button>
+                        <button class="size-btn">17,5</button>
+                        <button class="size-btn">18,5</button>
+                        <button class="size-btn">19</button>
+                        <button class="size-btn">19,5</button>
+                        <button class="size-btn">19,5</button>
+                        <button class="size-btn">18,5</button>
+                        <button class="size-btn">19</button>
+                        <button class="size-btn sz-btn-disb">19,5</button>
+                        <button class="size-btn sz-btn-disb">19,5</button>
+                    </div>
+                    <div class="size-foot">
+                        <div class="buy-btns">
+                            <button class="b-btn bag">в корзину</button>
+                            <button class="b-btn buy">купить в 1 клик</button>
+                        </div>
+                        <div class="size-action-container">
+                            <div class="size-action">
+                                <button class="sale-action-button sale-heart save-heart"></button>
+                                <p class="sz-act-text save-heart-text">
+                                    Сохранить
+                                </p>
+                            </div>
+                            <div class="size-action">
+                                <button class="sale-action-button chart"></button>
+                                <p class="sz-act-text">
+                                    Сравнить
+                                </p>
+                            </div>
+                            <div class="size-action">
+                                <button class="sale-action-button share"></button>
+                                <p class="sz-act-text">
+                                    Поделиться
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="articles">
+            <div class="articles-head">
+                <div class="section-title">Статьи</div>
+                <a href="#" class="read-all">Читать все</a>
+            </div>
+            <div class="article-foot">
+                <a href="#" class="article">
+                    <img src="/images/article1.png" alt="article-img" class="article-img">
+                    <div class="date">21 сентября 2021</div>
+                    <div class="article-title">Обручальные кольца: тренды 2021</div>
+                </a>
+                <a href="#" class="article">
+                    <img src="/images/article2.png" alt="article-img" class="article-img">
+                    <div class="date">25 сентября 2021</div>
+                    <div class="article-title">Главные ювелирные тренды года</div>
+                </a>
+                <a href="#" class="article">
+                    <img src="/images/article3.png" alt="article-img" class="article-img">
+                    <div class="date">21 сентября 2021</div>
+                    <div class="article-title">Жемчуг: 7 малоизвестных фактов о культовом украшении</div>
+                </a>
+                <a href="#" class="article">
+                    <img src="/images/article4.png" alt="article-img" class="article-img">
+                    <div class="date">21 сентября 2021</div>
+                    <div class="article-title">Как отличить золото от подделки: 10 практических советов</div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
