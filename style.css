@@ -854,19 +854,27 @@ button,
     line-height: 22.4px;
 }
 .sale-heart {
-    background: url(heart_fill.svg) no-repeat;
+    background: #C9C9C9;
+    -webkit-mask-image: url(heart_fill.svg);
+    mask-image: url(heart_fill.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
 .sale-heart:hover {
-    background: url(heart_fill_hover.svg) no-repeat;
+    background: #979797;
 }
 .sale-heart-active {
-    background: url(heart_fill-active.svg) no-repeat!important;
+    background: #E24B33!important;
 }
 .sale-eye {
-    background: url(eyes.svg) no-repeat;
+    background: #C9C9C9;
+    -webkit-mask-image: url(eyes.svg);
+    mask-image: url(eyes.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
 .sale-eye:hover {
-    background: url(eyes-hover.svg) no-repeat;
+    background: #979797;
 }
 .sale-block .dropdown-btn:before {
     display: none!important;
@@ -1308,23 +1316,27 @@ button,
     font-weight: 300;
 }
 .chart {
-    background: url(chart1.svg) no-repeat;
-    background-size: contain;
+    background: #C9C9C9;
+    -webkit-mask-image: url(chart1.svg);
+    mask-image: url(chart1.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
 .size-action:hover .chart {
-    background: url(chart-hover.svg) no-repeat;
-    background-size: contain;
+    background: #979797;
 }
 .share {
-    background: url(share-one.svg) no-repeat;
-    background-size: contain;
+    background: #C9C9C9;
+    -webkit-mask-image: url(share-one.svg);
+    mask-image: url(share-one.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
 .size-action:hover .share {
-    background: url(share-hover.svg) no-repeat;
-    background-size: contain;
+    background: #979797;
 }
 .size-action:hover .sale-heart {
-    background: url(heart_fill_hover.svg) no-repeat;
+    background: #979797;
 }
 
 /* Articles */
